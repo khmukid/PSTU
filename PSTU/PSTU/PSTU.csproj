@@ -867,6 +867,7 @@
     <Content Include="Contents\bower_components\morrisjs\spec\viz\run.sh" />
     <Content Include="Contents\bower_components\raphael\.bower.json" />
     <Content Include="Contents\bower_components\raphael\bower.json" />
+    <Content Include="Views\Shared\_MasterLayout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

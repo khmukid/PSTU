@@ -10,8 +10,8 @@ namespace CodeRepository.Web
             //bundles.Add(new ScriptBundle("~/bundles/angular").Include(
             //         "~/Contents/Scripts/Lib/angular.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                    "~/Contents/CSS/Lib/bootstrap.css.map"));
+            //bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+            //        "~/Contents/CSS/Lib/bootstrap.css.map"));
         }
     }
 }
