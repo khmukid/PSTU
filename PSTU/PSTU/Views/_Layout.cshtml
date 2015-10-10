@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head >
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/Contents/CSS/Lib/bootstrap.css.map" rel="stylesheet" />
+    <script src="~/Contents/Scripts/Lib/angular.min.js"></script>
+    <script src="~/Contents/Scripts/app.js"></script>
+    <script src="~/Contents/Scripts/ngServices/loginService.js"></script>
+    <script src="~/Contents/Scripts/ngControllers/loginController.js"></script>
+</head>
+<body>
+    <div ng-app="pstuApp" class="row">
+        @RenderBody()
+    </div>
+</body>
+</html>
+
